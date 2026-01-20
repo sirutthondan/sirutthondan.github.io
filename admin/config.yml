@@ -3,6 +3,9 @@ backend:
   repo: sirutthondan/blog-content   # EXACT repo
   branch: main
   auth_type: implicit
+  base_url: https://github.com
+  auth_endpoint: /login/oauth/authorize
+  client_id: Ov23ctnlqgnGzN1Oj2yv
 
 media_folder: "assets/images"
 public_folder: "/images"
