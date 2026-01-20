@@ -2,11 +2,9 @@ backend:
   name: github
   repo: sirutthondan/blog-content   # EXACT repo
   branch: main
-  auth_type: implicit
-  base_url: https://github.com
-  auth_endpoint: /login/oauth/authorize
-  client_id: Ov23ctnlqgnGzN1Oj2yv
-
+  base_url: https://sirutthondan.github.io # PKCE client.html hostname (just the base domain, no path)
+  auth_endpoint: /admin/client.html # PKCE client.html path
+  
 media_folder: "assets/images"
 public_folder: "/images"
 
