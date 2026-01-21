@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: sirutthondan/blog-content   # EXACT repo
+  repo: siruththondan/blog-content   # EXACT repo
   branch: main
-  base_url: https://sirutthondan.github.io # PKCE client.html hostname (just the base domain, no path)
+  base_url: https://siruththondan.github.io # PKCE client.html hostname (just the base domain, no path)
   auth_endpoint: /admin/client.html # PKCE client.html path
   
 media_folder: "assets/images"
